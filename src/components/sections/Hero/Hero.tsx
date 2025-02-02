@@ -1,4 +1,4 @@
-import logoUrl from "../../assets/images/logo-fiveone-white.png";
+import logoUrl from "../../../assets/images/logo-fiveone-white.png";
 
 import "./Hero.css";
 
