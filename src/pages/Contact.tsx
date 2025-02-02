@@ -1,9 +1,11 @@
 const Contact = () => {
   return (
-    <div style={{ padding: "2rem" }}>
-      <h1>Contact Us</h1>
-      <p>Get in touch with our team.</p>
-    </div>
+    <section className="contact-section">
+      <div className="content-container">
+        <h1>Contato</h1>
+        <p>Em construção</p>
+      </div>
+    </section>
   );
 };
 

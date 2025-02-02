@@ -9,35 +9,35 @@ interface TrilhaCard {
 
 const trilhas: TrilhaCard[] = [
   {
-    icon: "/src/assets/images/cropped/apostolo.png",
+    icon: "/src/assets/images/icons/apostolo.png",
     title: "APÓSTOLO",
     description:
       "Nesta trilha exploraremos o apostólico. Das raízes teológicas ao chamado individual.",
     alt: "Apóstolo",
   },
   {
-    icon: "/src/assets/images/cropped/profeta.png",
+    icon: "/src/assets/images/icons/profeta.png",
     title: "PROFETA",
     description:
       "Nesta trilha exploraremos o profético. Das raízes teológicas ao chamado individual.",
     alt: "Profeta",
   },
   {
-    icon: "/src/assets/images/cropped/evangelista.png",
+    icon: "/src/assets/images/icons/evangelista.png",
     title: "EVANGELISTA",
     description:
       "Nesta trilha exploraremos o evangelístico. Das raízes teológicas ao chamado individual.",
     alt: "Evangelista",
   },
   {
-    icon: "/src/assets/images/cropped/pastor.png",
+    icon: "/src/assets/images/icons/pastor.png",
     title: "PASTOR",
     description:
       "Nesta trilha exploraremos o pastoral. Das raízes teológicas ao chamado individual.",
     alt: "Pastor",
   },
   {
-    icon: "/src/assets/images/cropped/mestre.png",
+    icon: "/src/assets/images/icons/mestre.png",
     title: "MESTRE",
     description:
       "Nesta trilha exploraremos o ensino. Das raízes teológicas ao chamado individual.",

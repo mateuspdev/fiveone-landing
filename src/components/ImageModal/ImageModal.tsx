@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./ImageModal.css";
+import { FaX } from "react-icons/fa6";
 
 interface ImageModalProps {
   src: string;
@@ -61,7 +62,7 @@ const ImageModal = ({
         onClick={(e) => e.stopPropagation()}
       >
         <button className="modal-close" onClick={handleClose}>
-          ×
+          <FaX />
         </button>
         <button
           className={`modal-nav prev ${!hasPrev ? "disabled" : ""}`}

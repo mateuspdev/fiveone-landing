@@ -57,21 +57,21 @@ const Footer = () => {
           <h3>CONECTE-SE CONOSCO</h3>
           <div className="social-links">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/fiveone.oficial/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram />
             </a>
             <a
-              href="https://youtube.com"
+              href="https://www.youtube.com/@Escola_Five_One/videos"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaYoutube />
             </a>
             <a
-              href="https://tiktok.com"
+              href="https://www.tiktok.com/@escola.five.one"
               target="_blank"
               rel="noopener noreferrer"
             >

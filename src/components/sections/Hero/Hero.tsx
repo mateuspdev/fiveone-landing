@@ -5,11 +5,11 @@ interface HeroProps {
 }
 
 const icons = [
-  "/src/assets/images/cropped/apostolo.png",
-  "/src/assets/images/cropped/profeta.png",
-  "/src/assets/images/cropped/evangelista.png",
-  "/src/assets/images/cropped/pastor.png",
-  "/src/assets/images/cropped/mestre.png",
+  "/src/assets/images/icons/apostolo.png",
+  "/src/assets/images/icons/profeta.png",
+  "/src/assets/images/icons/evangelista.png",
+  "/src/assets/images/icons/pastor.png",
+  "/src/assets/images/icons/mestre.png",
 ];
 
 const IconColumn = ({

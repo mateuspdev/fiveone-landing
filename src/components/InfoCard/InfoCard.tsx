@@ -7,10 +7,7 @@ interface InfoCardProps {
 const InfoCard = ({ title, content }: InfoCardProps) => (
   <div className="info-card">
     <div className="card-icon">
-      <img
-        src="/src/assets/images/Five One LOGO 200X200 BRANCA-07.png"
-        alt={title}
-      />
+      <img src="/src/assets/images/logo-fiveone-white.png" alt={title} />
     </div>
     <h3>{title}</h3>
     <p>{content}</p>

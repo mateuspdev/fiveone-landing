@@ -1,9 +1,11 @@
 const Services = () => {
   return (
-    <div style={{ padding: "2rem" }}>
-      <h1>Our Services</h1>
-      <p>Explore the services we offer.</p>
-    </div>
+    <section className="services-section">
+      <div className="content-container">
+        <h1>Formação Ministerial</h1>
+        <p>Em construção</p>
+      </div>
+    </section>
   );
 };
 

@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <Link to="/" className="logo" onClick={() => setIsMenuOpen(false)}>
           <img
-            src="/src/assets/images/Five One LOGO 200X200 BRANCA-07.png"
+            src="/src/assets/images/logo-fiveone-white-small.png"
             alt="Five One"
             // width={200}
             // height={200}
