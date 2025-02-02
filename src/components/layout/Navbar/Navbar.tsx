@@ -1,5 +1,9 @@
 import { useState } from "react";
+
 import { Link } from "react-router-dom";
+
+import logoUrl from "../../../assets/images/logo-fiveone-white.png";
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -13,12 +17,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="logo" onClick={() => setIsMenuOpen(false)}>
-          <img
-            src="/src/assets/images/logo-fiveone-white-small.png"
-            alt="Five One"
-            // width={200}
-            // height={200}
-          />
+          <img src={logoUrl} alt="Five One" />
         </Link>
 
         <button

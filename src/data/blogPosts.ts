@@ -1,3 +1,7 @@
+import jazzUrl from "../assets/images/blog/5q-jazz.png";
+import heroiUrl from "../assets/images/blog/hero-journey.png";
+import identityUrl from "../assets/images/blog/5q-identity.png";
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -16,7 +20,7 @@ export const blogPosts: BlogPost[] = [
       "Como os arquétipos da jornada do herói se relacionam com os cinco ministérios de Cristo",
     excerpt:
       "Tendo reconhecido a jornada do herói no envio, na descida e na ascensão de Jesus, estamos agora em uma posição melhor para entender exatamente como Jesus redefine os arquétipos e os apresenta à Igreja...",
-    imageUrl: "/src/assets/images/blog/hero-journey.png",
+    imageUrl: heroiUrl,
     date: "2024-03-15",
     content: `
       Não é de surpreender que uma exploração de arquétipos na sociedade humana seja semelhante à ideia de que os mitos são fundamentais para a identidade pessoal e de grupo. Joseph Campbell declarou significativamente o poder contínuo dos mitos primários (definindo narrativas) ao longo da história humana.
@@ -51,7 +55,7 @@ export const blogPosts: BlogPost[] = [
       "Uma analogia entre o jazz e o APEST para entender como os dons ministeriais funcionam na prática",
     excerpt:
       "Ao longo dos meus trinta anos de ministério, a menção do APEST no livro de Efésios inspirou muitos pensamentos e ideias...",
-    imageUrl: "/src/assets/images/blog/5q-jazz.png",
+    imageUrl: jazzUrl,
     date: "2024-03-10",
     content: `
       Ao longo dos meus trinta anos de ministério, a menção do APEST no livro de Efésios inspirou muitos pensamentos e ideias. Uma das analogias mais úteis que encontrei para entender como o APEST funciona na prática é compará-lo ao jazz.
@@ -82,7 +86,7 @@ export const blogPosts: BlogPost[] = [
       "Uma reflexão sobre como o APEST se relaciona com nossa identidade em Cristo",
     excerpt:
       "De muitas maneiras, esse aspecto vinculado à personalidade do APEST chega muito perto de ser uma questão de identidade...",
-    imageUrl: "/src/assets/images/blog/5q-identity.png",
+    imageUrl: identityUrl,
     date: "2024-03-05",
     content: `
       De muitas maneiras, esse aspecto vinculado à personalidade do APEST chega muito perto de ser uma questão de identidade. Afinal, quando descobrimos nosso dom principal no APEST, muitas vezes sentimos que finalmente encontramos uma peça fundamental de quem somos.

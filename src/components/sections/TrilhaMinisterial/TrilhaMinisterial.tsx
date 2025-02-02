@@ -1,3 +1,9 @@
+import pastorIcon from "../../../assets/images/icons/pastor.png";
+import mestreIcon from "../../../assets/images/icons/mestre.png";
+import profetaIcon from "../../../assets/images/icons/profeta.png";
+import apostoloIcon from "../../../assets/images/icons/apostolo.png";
+import evangelistaIcon from "../../../assets/images/icons/evangelista.png";
+
 import "./TrilhaMinisterial.css";
 
 interface TrilhaCard {
@@ -9,35 +15,35 @@ interface TrilhaCard {
 
 const trilhas: TrilhaCard[] = [
   {
-    icon: "/src/assets/images/icons/apostolo.png",
+    icon: apostoloIcon,
     title: "APÓSTOLO",
     description:
       "Nesta trilha exploraremos o apostólico. Das raízes teológicas ao chamado individual.",
     alt: "Apóstolo",
   },
   {
-    icon: "/src/assets/images/icons/profeta.png",
+    icon: profetaIcon,
     title: "PROFETA",
     description:
       "Nesta trilha exploraremos o profético. Das raízes teológicas ao chamado individual.",
     alt: "Profeta",
   },
   {
-    icon: "/src/assets/images/icons/evangelista.png",
+    icon: evangelistaIcon,
     title: "EVANGELISTA",
     description:
       "Nesta trilha exploraremos o evangelístico. Das raízes teológicas ao chamado individual.",
     alt: "Evangelista",
   },
   {
-    icon: "/src/assets/images/icons/pastor.png",
+    icon: pastorIcon,
     title: "PASTOR",
     description:
       "Nesta trilha exploraremos o pastoral. Das raízes teológicas ao chamado individual.",
     alt: "Pastor",
   },
   {
-    icon: "/src/assets/images/icons/mestre.png",
+    icon: mestreIcon,
     title: "MESTRE",
     description:
       "Nesta trilha exploraremos o ensino. Das raízes teológicas ao chamado individual.",

@@ -1,4 +1,9 @@
+import pastorIcon from "../../../assets/images/icons/pastor.png";
+import mestreIcon from "../../../assets/images/icons/mestre.png";
+import profetaIcon from "../../../assets/images/icons/profeta.png";
 import logoUrl from "../../../assets/images/logo-fiveone-white.png";
+import apostoloIcon from "../../../assets/images/icons/apostolo.png";
+import evangelistaIcon from "../../../assets/images/icons/evangelista.png";
 
 import "./Hero.css";
 
@@ -7,11 +12,11 @@ interface HeroProps {
 }
 
 const icons = [
-  "/src/assets/images/icons/apostolo.png",
-  "/src/assets/images/icons/profeta.png",
-  "/src/assets/images/icons/evangelista.png",
-  "/src/assets/images/icons/pastor.png",
-  "/src/assets/images/icons/mestre.png",
+  apostoloIcon,
+  profetaIcon,
+  evangelistaIcon,
+  pastorIcon,
+  mestreIcon,
 ];
 
 const IconColumn = ({

@@ -1,18 +1,24 @@
 import { useState } from "react";
+
 import ImageModal from "../../ImageModal/ImageModal";
+
+import plataforma1Url from "../../../assets/images/plataforma1.png";
+import plataforma2Url from "../../../assets/images/plataforma2.png";
+import plataforma3Url from "../../../assets/images/plataforma3.png";
+
 import "./Platform.css";
 
 const platformImages = [
   {
-    src: "/src/assets/images/plataforma1.png",
+    src: plataforma1Url,
     alt: "Plataforma Five One - Página Inicial",
   },
   {
-    src: "/src/assets/images/plataforma2.png",
+    src: plataforma2Url,
     alt: "Plataforma Five One - Conteúdo do Curso",
   },
   {
-    src: "/src/assets/images/plataforma3.png",
+    src: plataforma3Url,
     alt: "Plataforma Five One - Aulas",
   },
 ];
