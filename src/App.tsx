@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 import Blog from "./pages/Blog";
 import Home from "./pages/Home";
+import Quiz from "./pages/Quiz";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
@@ -24,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/quem-somos" element={<About />} />
+            <Route path="/teste-dons" element={<Quiz />} />
             <Route path="/formacao-ministerial" element={<Services />} />
             <Route path="/insights" element={<Blog />} />
             <Route path="/insights/:postId" element={<BlogPostPage />} />
