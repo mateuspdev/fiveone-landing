@@ -1,3 +1,5 @@
+import logoUrl from "../../assets/images/logo-fiveone-white.png";
+
 import "./Hero.css";
 
 interface HeroProps {
@@ -52,7 +54,7 @@ const Hero = ({ onScrollClick }: HeroProps) => {
 
       <div className="content-container">
         <img
-          src="/src/assets/images/logo-fiveone-white.png"
+          src={logoUrl}
           alt="Five One Logo"
           className="hero-logo"
           draggable="false"
