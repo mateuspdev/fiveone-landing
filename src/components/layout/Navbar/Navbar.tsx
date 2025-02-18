@@ -1,6 +1,5 @@
 import { useState } from "react";
-
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import logoUrl from "../../../assets/images/logo-fiveone-white.png";
 
@@ -8,9 +7,17 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const isActive = (path: string) => {
+    // Get the path after the repository name
+    const currentPath =
+      location.pathname.replace("/fiveone-landing", "") || "/";
+    return currentPath === path;
   };
 
   return (
@@ -31,35 +38,37 @@ const Navbar = () => {
         <div className={`nav-links ${isMenuOpen ? "active" : ""}`}>
           <Link
             to="/quem-somos"
-            className="nav-link"
+            className={`nav-link ${isActive("/quem-somos") ? "active" : ""}`}
             onClick={() => setIsMenuOpen(false)}
           >
             QUEM SOMOS
           </Link>
           <Link
             to="/teste-dons"
-            className="nav-link"
+            className={`nav-link ${isActive("/teste-dons") ? "active" : ""}`}
             onClick={() => setIsMenuOpen(false)}
           >
             DESCUBRA O SEU DOM MINISTERIAL
           </Link>
           <Link
             to="/formacao-ministerial"
-            className="nav-link"
+            className={`nav-link ${
+              isActive("/formacao-ministerial") ? "active" : ""
+            }`}
             onClick={() => setIsMenuOpen(false)}
           >
             FORMAÇÃO MINISTERIAL
           </Link>
           <Link
             to="/insights"
-            className="nav-link"
+            className={`nav-link ${isActive("/insights") ? "active" : ""}`}
             onClick={() => setIsMenuOpen(false)}
           >
             INSIGHTS MINISTERIAIS
           </Link>
           <Link
             to="/contato"
-            className="nav-link"
+            className={`nav-link ${isActive("/contato") ? "active" : ""}`}
             onClick={() => setIsMenuOpen(false)}
           >
             CONTATO

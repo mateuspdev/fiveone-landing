@@ -57,6 +57,14 @@
   transform: scale(1.1);
 }
 
+.nav-link.active {
+  color: var(--mint);
+}
+
+.nav-link.active:hover {
+  transform: none;
+}
+
 .button-link {
   color: var(--navy);
   text-decoration: none;
